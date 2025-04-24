@@ -4,7 +4,7 @@ import os
 from setuptools import setup, find_packages
 
 repository_name = 'id10t'
-module_name = 'id10t'
+module_name = 'id10terr'
 python_min_version = ">=3.1"
 
 required_packages = []
@@ -18,11 +18,11 @@ with open('README.md', 'r') as f:
     readme = f.read()
 
 setup(
-    name="id10t",
+    name="id10terr",
     description="Because it's necessary to have a package that helps you with your ID10T errors",
     long_description=readme,
     long_description_content_type='text/markdown',
-    version="0.9.91",
+    version="0.9.92",
     author=about['__author__'],
     author_email=about['__author_email__'],
     url=about['__url__'],

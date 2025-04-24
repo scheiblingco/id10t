@@ -3,7 +3,7 @@
 import os
 
 # The title and description of the package
-__title__ = "id10t"
+__title__ = "id10terr"
 __description__ = """
     ID10T python library
 """
