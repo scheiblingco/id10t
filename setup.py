@@ -18,11 +18,11 @@ with open('README.md', 'r') as f:
     readme = f.read()
 
 setup(
-    name=about['__title__'],
-    description=about['__description__'],
+    name="id10t",
+    description="Because it's necessary to have a package that helps you with your ID10T errors",
     long_description=readme,
     long_description_content_type='text/markdown',
-    version=about['__version__'],
+    version="0.9.91",
     author=about['__author__'],
     author_email=about['__author_email__'],
     url=about['__url__'],
@@ -38,6 +38,6 @@ setup(
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Operating System :: OS Independent",
     ],
-    keywords='python ssh ai vibecoder junior interns',
+    keywords='python ssh ai vibecoder junior interns sarcasm',
     entry_points = {}
 )
