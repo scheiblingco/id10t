@@ -22,7 +22,7 @@ setup(
     description="Because it's necessary to have a package that helps you with your ID10T errors",
     long_description=readme,
     long_description_content_type='text/markdown',
-    version="0.9.92",
+    version="1.0.0",
     author=about['__author__'],
     author_email=about['__author_email__'],
     url=about['__url__'],
