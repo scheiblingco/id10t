@@ -1,4 +1,4 @@
-from interface import ID10TException
+from .interface import ID10TException
 
 class DidntReadDocsException(ID10TException):
     suffix: str = "Please refer to the documentation for more information."

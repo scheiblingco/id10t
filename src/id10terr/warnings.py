@@ -1,4 +1,4 @@
-from interface import ID10TWarning
+from .interface import ID10TWarning
 
 class DidntReadDocsWarning(ID10TWarning):
     suffix: str = "Please refer to the documentation for more information."
